@@ -1,0 +1,552 @@
+Started by user [8mha:////4A9z2f6NgnrdSy6p2rz4LUMwlDqVNY9sow97UjKP1Us8AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9koyizKSMUgCAdTDBwgAAAA==[0mThribhuvan 
+Running as SYSTEM
+Building remotely on [8mha:////4GbP9xvKbEA+bIcn/GfeCtdS+JLNT/AvKmvAq94bu6ywAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZR/eT83ILSktQi/eLUorLUIiOQmQAoRLzGygAAAA==[0mserver2java (java) in workspace /opt/jenkins/workspace/java-project1build
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/kpthribhu/java-calendar-demo.git
+ > git init /opt/jenkins/workspace/java-project1build # timeout=10
+Fetching upstream changes from https://github.com/kpthribhu/java-calendar-demo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/kpthribhu/java-calendar-demo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/kpthribhu/java-calendar-demo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ff2581523e545134346663d0b7113ebf3e773f5a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ff2581523e545134346663d0b7113ebf3e773f5a # timeout=10
+Commit message: "Added license"
+First time build. Skipping changelog.
+[java-project1build] $ /bin/sh -xe /tmp/jenkins7123437836282115364.sh
++ cd /opt/jenkins/workspace/java-project1build
++ mvn package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< dev.outlook.com:java-calendar-demo >-----------------
+[INFO] Building java-calendar-demo Maven Webapp 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.pom
+Progress (1): 1.4/6.5 kBProgress (1): 2.7/6.5 kBProgress (1): 4.1/6.5 kBProgress (1): 5.5/6.5 kBProgress (1): 6.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.pom (6.5 kB at 9.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.jar
+Progress (1): 1.4/79 kBProgress (1): 2.7/79 kBProgress (1): 4.1/79 kBProgress (1): 5.5/79 kBProgress (1): 6.9/79 kBProgress (1): 8.2/79 kBProgress (1): 9.6/79 kBProgress (1): 11/79 kB Progress (1): 12/79 kBProgress (1): 14/79 kBProgress (1): 15/79 kBProgress (1): 16/79 kBProgress (1): 17/79 kBProgress (1): 19/79 kBProgress (1): 20/79 kBProgress (1): 21/79 kBProgress (1): 23/79 kBProgress (1): 24/79 kBProgress (1): 25/79 kBProgress (1): 27/79 kBProgress (1): 28/79 kBProgress (1): 30/79 kBProgress (1): 31/79 kBProgress (1): 32/79 kBProgress (1): 34/79 kBProgress (1): 35/79 kBProgress (1): 36/79 kBProgress (1): 38/79 kBProgress (1): 39/79 kBProgress (1): 40/79 kBProgress (1): 42/79 kBProgress (1): 43/79 kBProgress (1): 45/79 kBProgress (1): 46/79 kBProgress (1): 47/79 kBProgress (1): 49/79 kBProgress (1): 53/79 kBProgress (1): 57/79 kBProgress (1): 61/79 kBProgress (1): 65/79 kBProgress (1): 69/79 kBProgress (1): 73/79 kBProgress (1): 77/79 kBProgress (1): 79 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.jar (79 kB at 894 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.pom
+Progress (1): 4.1/9.2 kBProgress (1): 8.2/9.2 kBProgress (1): 9.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.pom (9.2 kB at 440 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/json/1.0.4/json-1.0.4.pom
+Progress (1): 4.1/11 kBProgress (1): 8.2/11 kBProgress (1): 11 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/json/1.0.4/json-1.0.4.pom (11 kB at 316 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.4.1/httpclient-4.4.1.pom
+Progress (1): 4.1/6.4 kBProgress (1): 6.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.4.1/httpclient-4.4.1.pom (6.4 kB at 266 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.4.1/httpcomponents-client-4.4.1.pom
+Progress (1): 4.1/16 kBProgress (1): 8.2/16 kBProgress (1): 12/16 kB Progress (1): 16 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.4.1/httpcomponents-client-4.4.1.pom (16 kB at 681 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/7/project-7.pom
+Progress (1): 4.1/27 kBProgress (1): 8.2/27 kBProgress (1): 12/27 kB Progress (1): 16/27 kBProgress (1): 20/27 kBProgress (1): 24/27 kBProgress (1): 27 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/7/project-7.pom (27 kB at 851 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1.pom
+Progress (1): 4.1/4.6 kBProgress (1): 4.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1.pom (4.6 kB at 135 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.1/httpcomponents-core-4.4.1.pom
+Progress (1): 4.1/13 kBProgress (1): 8.2/13 kBProgress (1): 12/13 kB Progress (1): 13 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.1/httpcomponents-core-4.4.1.pom (13 kB at 756 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+Progress (1): 4.1/19 kBProgress (1): 8.2/19 kBProgress (1): 12/19 kB Progress (1): 16/19 kBProgress (1): 19 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom (19 kB at 1.9 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+Progress (1): 4.1/56 kBProgress (1): 8.2/56 kBProgress (1): 12/56 kB Progress (1): 16/56 kBProgress (1): 20/56 kBProgress (1): 24/56 kBProgress (1): 28/56 kBProgress (1): 32/56 kBProgress (1): 36/56 kBProgress (1): 40/56 kBProgress (1): 45/56 kBProgress (1): 49/56 kBProgress (1): 53/56 kBProgress (1): 56 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom (56 kB at 3.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom
+Progress (1): 4.1/12 kBProgress (1): 8.2/12 kBProgress (1): 12 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom (12 kB at 340 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/32/commons-parent-32.pom
+Progress (1): 4.1/53 kBProgress (1): 8.2/53 kBProgress (1): 12/53 kB Progress (1): 16/53 kBProgress (1): 20/53 kBProgress (1): 24/53 kBProgress (1): 28/53 kBProgress (1): 32/53 kBProgress (1): 36/53 kBProgress (1): 40/53 kBProgress (1): 45/53 kBProgress (1): 49/53 kBProgress (1): 53/53 kBProgress (1): 53 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/32/commons-parent-32.pom (53 kB at 2.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/javax/servlet/jstl/1.2/jstl-1.2.pom
+Progress (1): 356 B                   Downloaded from central: https://repo.maven.apache.org/maven2/javax/servlet/jstl/1.2/jstl-1.2.pom (356 B at 10 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/retrofit2/retrofit/2.0.2/retrofit-2.0.2.pom
+Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/retrofit2/retrofit/2.0.2/retrofit-2.0.2.pom (1.9 kB at 93 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/retrofit2/parent/2.0.2/parent-2.0.2.pom
+Progress (1): 4.1/8.5 kBProgress (1): 8.2/8.5 kBProgress (1): 8.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/retrofit2/parent/2.0.2/parent-2.0.2.pom (8.5 kB at 369 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+Progress (1): 4.1/4.8 kBProgress (1): 4.8 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (4.8 kB at 241 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.2.0/okhttp-3.2.0.pom
+Progress (1): 1.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.2.0/okhttp-3.2.0.pom (1.5 kB at 53 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/parent/3.2.0/parent-3.2.0.pom
+Progress (1): 4.1/9.5 kBProgress (1): 8.2/9.5 kBProgress (1): 9.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/parent/3.2.0/parent-3.2.0.pom (9.5 kB at 789 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.6.0/okio-1.6.0.pom
+Progress (1): 1.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.6.0/okio-1.6.0.pom (1.5 kB at 78 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-parent/1.6.0/okio-parent-1.6.0.pom
+Progress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-parent/1.6.0/okio-parent-1.6.0.pom (3.2 kB at 74 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/retrofit2/converter-gson/2.0.2/converter-gson-2.0.2.pom
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/retrofit2/converter-gson/2.0.2/converter-gson-2.0.2.pom (1.3 kB at 81 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/retrofit2/retrofit-converters/2.0.2/retrofit-converters-2.0.2.pom
+Progress (1): 796 B                   Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/retrofit2/retrofit-converters/2.0.2/retrofit-converters-2.0.2.pom (796 B at 50 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.6.1/gson-2.6.1.pom
+Progress (1): 1.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.6.1/gson-2.6.1.pom (1.1 kB at 94 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.6.1/gson-parent-2.6.1.pom
+Progress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.6.1/gson-parent-2.6.1.pom (2.8 kB at 404 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/logging-interceptor/3.2.0/logging-interceptor-3.2.0.pom
+Progress (1): 1.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/logging-interceptor/3.2.0/logging-interceptor-3.2.0.pom (1.2 kB at 46 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.4.1/httpclient-4.4.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.jar
+Progress (1): 4.1/85 kBProgress (1): 8.2/85 kBProgress (1): 12/85 kB Progress (1): 16/85 kBProgress (1): 20/85 kBProgress (1): 24/85 kBProgress (1): 28/85 kBProgress (1): 32/85 kBProgress (1): 36/85 kBProgress (1): 40/85 kBProgress (1): 45/85 kBProgress (1): 49/85 kBProgress (1): 53/85 kBProgress (1): 57/85 kBProgress (1): 61/85 kBProgress (1): 65/85 kBProgress (1): 69/85 kBProgress (1): 73/85 kBProgress (1): 77/85 kBProgress (1): 81/85 kBProgress (1): 85 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar (85 kB at 926 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/javax/servlet/jstl/1.2/jstl-1.2.jar
+Progress (1): 1.4/721 kBProgress (1): 2.7/721 kBProgress (1): 4.1/721 kBProgress (1): 5.5/721 kBProgress (1): 6.9/721 kBProgress (1): 8.2/721 kBProgress (1): 9.6/721 kBProgress (1): 11/721 kB Progress (1): 12/721 kBProgress (1): 14/721 kBProgress (1): 15/721 kBProgress (1): 16/721 kBProgress (1): 17/721 kBProgress (1): 19/721 kBProgress (1): 20/721 kBProgress (1): 21/721 kBProgress (1): 23/721 kBProgress (1): 24/721 kBProgress (1): 25/721 kBProgress (1): 27/721 kBProgress (1): 28/721 kBProgress (1): 30/721 kBProgress (1): 31/721 kBProgress (1): 32/721 kBProgress (1): 34/721 kBProgress (1): 35/721 kBProgress (1): 36/721 kBProgress (1): 38/721 kBProgress (1): 39/721 kBProgress (1): 40/721 kBProgress (1): 42/721 kBProgress (1): 43/721 kBProgress (1): 45/721 kBProgress (1): 46/721 kBProgress (1): 47/721 kBProgress (1): 49/721 kBProgress (1): 53/721 kBProgress (1): 57/721 kBProgress (1): 61/721 kBProgress (1): 65/721 kBProgress (1): 69/721 kBProgress (1): 73/721 kBProgress (1): 77/721 kBProgress (1): 81/721 kBProgress (1): 86/721 kBProgress (1): 90/721 kBProgress (1): 94/721 kBProgress (1): 98/721 kBProgress (1): 102/721 kBProgress (1): 106/721 kBProgress (1): 110/721 kBProgress (1): 114/721 kBProgress (1): 118/721 kBProgress (1): 122/721 kBProgress (1): 126/721 kBProgress (1): 131/721 kBProgress (2): 131/721 kB | 1.4/322 kBProgress (2): 131/721 kB | 2.7/322 kBProgress (2): 131/721 kB | 4.1/322 kBProgress (2): 131/721 kB | 5.5/322 kBProgress (2): 131/721 kB | 6.9/322 kBProgress (2): 131/721 kB | 8.2/322 kBProgress (2): 131/721 kB | 9.6/322 kBProgress (2): 131/721 kB | 11/322 kB Progress (2): 131/721 kB | 12/322 kBProgress (2): 131/721 kB | 14/322 kBProgress (2): 131/721 kB | 15/322 kBProgress (2): 131/721 kB | 16/322 kBProgress (2): 131/721 kB | 17/322 kBProgress (2): 131/721 kB | 19/322 kBProgress (2): 131/721 kB | 20/322 kBProgress (2): 131/721 kB | 21/322 kBProgress (2): 131/721 kB | 23/322 kBProgress (2): 131/721 kB | 24/322 kBProgress (2): 131/721 kB | 25/322 kBProgress (2): 131/721 kB | 27/322 kBProgress (2): 131/721 kB | 28/322 kBProgress (2): 131/721 kB | 30/322 kBProgress (2): 131/721 kB | 31/322 kBProgress (2): 131/721 kB | 32/322 kBProgress (2): 131/721 kB | 34/322 kBProgress (2): 131/721 kB | 35/322 kBProgress (2): 131/721 kB | 36/322 kBProgress (2): 131/721 kB | 38/322 kBProgress (2): 131/721 kB | 39/322 kBProgress (2): 131/721 kB | 40/322 kBProgress (2): 131/721 kB | 42/322 kBProgress (2): 131/721 kB | 43/322 kBProgress (2): 131/721 kB | 45/322 kBProgress (2): 131/721 kB | 46/322 kBProgress (2): 131/721 kB | 47/322 kBProgress (2): 131/721 kB | 49/322 kBProgress (2): 131/721 kB | 53/322 kBProgress (2): 131/721 kB | 57/322 kBProgress (2): 131/721 kB | 61/322 kBProgress (2): 131/721 kB | 65/322 kBProgress (2): 131/721 kB | 69/322 kBProgress (2): 131/721 kB | 73/322 kBProgress (2): 131/721 kB | 77/322 kBProgress (2): 131/721 kB | 81/322 kBProgress (2): 131/721 kB | 86/322 kBProgress (2): 131/721 kB | 90/322 kBProgress (2): 131/721 kB | 94/322 kBProgress (2): 131/721 kB | 98/322 kBProgress (2): 131/721 kB | 102/322 kBProgress (2): 131/721 kB | 106/322 kBProgress (2): 131/721 kB | 110/322 kBProgress (2): 131/721 kB | 114/322 kBProgress (2): 131/721 kB | 118/322 kBProgress (2): 131/721 kB | 122/322 kBProgress (2): 131/721 kB | 126/322 kBProgress (2): 131/721 kB | 131/322 kBProgress (2): 131/721 kB | 135/322 kBProgress (2): 131/721 kB | 139/322 kBProgress (2): 131/721 kB | 143/322 kBProgress (2): 131/721 kB | 147/322 kBProgress (2): 131/721 kB | 151/322 kBProgress (2): 131/721 kB | 155/322 kBProgress (2): 131/721 kB | 159/322 kBProgress (2): 131/721 kB | 163/322 kBProgress (3): 131/721 kB | 163/322 kB | 1.4/62 kBProgress (3): 131/721 kB | 163/322 kB | 2.7/62 kBProgress (3): 131/721 kB | 163/322 kB | 4.1/62 kBProgress (3): 131/721 kB | 163/322 kB | 5.5/62 kBProgress (3): 131/721 kB | 163/322 kB | 6.9/62 kBProgress (3): 131/721 kB | 163/322 kB | 8.2/62 kBProgress (3): 131/721 kB | 163/322 kB | 9.6/62 kBProgress (3): 131/721 kB | 163/322 kB | 11/62 kB Progress (3): 131/721 kB | 163/322 kB | 12/62 kBProgress (3): 131/721 kB | 163/322 kB | 14/62 kBProgress (3): 131/721 kB | 163/322 kB | 15/62 kBProgress (3): 131/721 kB | 163/322 kB | 16/62 kBProgress (3): 131/721 kB | 163/322 kB | 17/62 kBProgress (3): 131/721 kB | 163/322 kB | 19/62 kBProgress (3): 131/721 kB | 163/322 kB | 20/62 kBProgress (3): 131/721 kB | 163/322 kB | 21/62 kBProgress (3): 131/721 kB | 163/322 kB | 23/62 kBProgress (3): 131/721 kB | 163/322 kB | 24/62 kBProgress (3): 131/721 kB | 163/322 kB | 25/62 kBProgress (3): 131/721 kB | 163/322 kB | 27/62 kBProgress (3): 131/721 kB | 163/322 kB | 28/62 kBProgress (3): 131/721 kB | 163/322 kB | 30/62 kBProgress (3): 131/721 kB | 163/322 kB | 31/62 kBProgress (3): 131/721 kB | 163/322 kB | 32/62 kBProgress (3): 131/721 kB | 163/322 kB | 34/62 kBProgress (3): 131/721 kB | 163/322 kB | 35/62 kBProgress (3): 131/721 kB | 163/322 kB | 36/62 kBProgress (3): 131/721 kB | 163/322 kB | 38/62 kBProgress (3): 131/721 kB | 163/322 kB | 39/62 kBProgress (3): 131/721 kB | 163/322 kB | 40/62 kBProgress (3): 131/721 kB | 163/322 kB | 42/62 kBProgress (3): 131/721 kB | 163/322 kB | 43/62 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 1.4/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 2.7/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 4.1/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 5.5/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 6.9/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 8.2/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 9.6/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 11/264 kB Progress (4): 131/721 kB | 163/322 kB | 43/62 kB | 12/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 14/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 15/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 16/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 17/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 19/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 20/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 21/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 23/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 24/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 25/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 27/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 28/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 30/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 31/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 32/264 kBProgress (4): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 4.1/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 8.2/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 12/414 kB Progress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 16/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 20/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 24/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 28/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 32/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 36/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 40/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 45/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 49/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 53/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 57/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 61/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 65/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 69/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 73/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 77/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 81/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 86/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 90/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 94/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 98/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 102/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 106/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 110/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 114/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 118/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 122/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 126/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 131/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 135/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 139/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 143/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 147/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 151/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 155/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 159/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 163/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 167/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 172/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 176/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 180/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 184/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 188/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 192/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 196/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 200/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 204/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 208/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 212/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 217/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 221/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 225/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 229/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 233/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 237/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 241/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 245/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 249/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 253/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 258/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 262/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 266/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 270/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 274/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 278/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 282/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 286/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 290/414 kBProgress (5): 131/721 kB | 163/322 kB | 43/62 kB | 34/264 kB | 294/414 kBProgress (5): 131/721 kB | 163/322 kB | 45/62 kB | 34/264 kB | 294/414 kBProgress (5): 131/721 kB | 163/322 kB | 46/62 kB | 34/264 kB | 294/414 kBProgress (5): 131/721 kB | 163/322 kB | 47/62 kB | 34/264 kB | 294/414 kBProgress (5): 131/721 kB | 163/322 kB | 49/62 kB | 34/264 kB | 294/414 kBProgress (5): 131/721 kB | 163/322 kB | 50/62 kB | 34/264 kB | 294/414 kBProgress (5): 131/721 kB | 163/322 kB | 51/62 kB | 34/264 kB | 294/414 kBProgress (5): 131/721 kB | 163/322 kB | 53/62 kB | 34/264 kB | 294/414 kBProgress (5): 131/721 kB | 163/322 kB | 54/62 kB | 34/264 kB | 294/414 kBProgress (5): 131/721 kB | 163/322 kB | 56/62 kB | 34/264 kB | 294/414 kBProgress (5): 131/721 kB | 163/322 kB | 57/62 kB | 34/264 kB | 294/414 kBProgress (5): 131/721 kB | 163/322 kB | 58/62 kB | 34/264 kB | 294/414 kBProgress (5): 131/721 kB | 163/322 kB | 60/62 kB | 34/264 kB | 294/414 kBProgress (5): 131/721 kB | 163/322 kB | 61/62 kB | 34/264 kB | 294/414 kBProgress (5): 131/721 kB | 163/322 kB | 62 kB | 34/264 kB | 294/414 kB   Progress (5): 131/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 135/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 139/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 143/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 147/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 151/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 155/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 159/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 163/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 167/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 172/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 176/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 180/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 184/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 188/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 192/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 196/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 200/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 204/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 208/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 212/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 217/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 221/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 225/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 229/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 233/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 237/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 241/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 245/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 249/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 253/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 258/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 262/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 266/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 270/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 274/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 278/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 282/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 286/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 290/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 294/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 298/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 303/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 307/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 311/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 315/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 319/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 323/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 327/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 331/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 335/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 339/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 344/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 348/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 352/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 356/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 360/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 364/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 368/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 372/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 35/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 36/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 38/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 39/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 40/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 42/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 43/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 45/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 46/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 47/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 49/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 53/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 57/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 61/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 65/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 69/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 73/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 77/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 81/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 86/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 90/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 94/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 98/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 102/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 106/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 110/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 114/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 118/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 122/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 126/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 131/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 135/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 139/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 143/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 147/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 151/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 155/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 159/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 163/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 167/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 172/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 176/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 180/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 184/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 188/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 192/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 196/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 200/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 204/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 208/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 212/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 217/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 221/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 225/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 229/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 233/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 237/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 241/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 245/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 249/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 253/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 258/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 262/264 kB | 294/414 kBProgress (5): 376/721 kB | 163/322 kB | 62 kB | 264 kB | 294/414 kB    Progress (5): 376/721 kB | 167/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 172/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 176/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 180/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 184/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 188/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 192/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 196/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 200/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 204/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 208/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 212/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 217/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 221/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 225/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 229/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 233/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 237/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 241/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 245/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 249/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 253/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 258/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 262/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 266/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 270/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 274/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 278/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 282/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 286/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 290/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 294/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 298/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 303/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 307/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 294/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 299/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 303/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 307/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 311/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 315/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 319/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 323/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 327/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 331/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 335/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 339/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 344/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 348/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 352/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 356/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 360/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 364/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 368/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 372/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 376/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 380/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 385/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 389/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 393/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 397/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 401/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 405/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 409/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 413/414 kBProgress (5): 376/721 kB | 311/322 kB | 62 kB | 264 kB | 414 kB                                                                   Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar (62 kB at 167 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/retrofit2/retrofit/2.0.2/retrofit-2.0.2.jar
+Progress (4): 380/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 384/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 389/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 393/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 397/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 401/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 405/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 409/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 413/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 417/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 421/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 425/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 430/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 434/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 438/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 442/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 446/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 450/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 454/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 458/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 462/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 466/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 470/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 475/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 479/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 483/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 487/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 491/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 495/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 499/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 503/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 507/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 511/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 516/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 520/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 524/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 528/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 532/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 536/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 540/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 544/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 548/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 552/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 556/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 561/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 565/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 569/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 573/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 577/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 581/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 585/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 589/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 593/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 597/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 602/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 606/721 kB | 311/322 kB | 264 kB | 414 kBProgress (4): 606/721 kB | 315/322 kB | 264 kB | 414 kBProgress (4): 606/721 kB | 319/322 kB | 264 kB | 414 kBProgress (4): 606/721 kB | 322 kB | 264 kB | 414 kB    Progress (4): 610/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 614/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 618/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 622/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 626/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 630/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 634/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 638/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 642/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 647/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 651/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 655/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 659/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 663/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 667/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 671/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 675/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 679/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 683/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 688/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 692/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 696/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 700/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 704/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 708/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 712/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 716/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 720/721 kB | 322 kB | 264 kB | 414 kBProgress (4): 721 kB | 322 kB | 264 kB | 414 kB                                                   Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.jar (264 kB at 623 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.2.0/okhttp-3.2.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1.jar (322 kB at 741 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.6.0/okio-1.6.0.jar
+Progress (3): 721 kB | 414 kB | 4.1/86 kBProgress (3): 721 kB | 414 kB | 8.2/86 kBProgress (3): 721 kB | 414 kB | 12/86 kB Progress (3): 721 kB | 414 kB | 16/86 kBProgress (3): 721 kB | 414 kB | 20/86 kBProgress (3): 721 kB | 414 kB | 24/86 kBProgress (3): 721 kB | 414 kB | 28/86 kBProgress (3): 721 kB | 414 kB | 32/86 kBProgress (3): 721 kB | 414 kB | 36/86 kBProgress (3): 721 kB | 414 kB | 40/86 kBProgress (3): 721 kB | 414 kB | 45/86 kBProgress (3): 721 kB | 414 kB | 49/86 kBProgress (3): 721 kB | 414 kB | 53/86 kBProgress (3): 721 kB | 414 kB | 57/86 kBProgress (3): 721 kB | 414 kB | 61/86 kBProgress (3): 721 kB | 414 kB | 65/86 kBProgress (3): 721 kB | 414 kB | 69/86 kBProgress (3): 721 kB | 414 kB | 73/86 kBProgress (3): 721 kB | 414 kB | 77/86 kBProgress (3): 721 kB | 414 kB | 81/86 kBProgress (3): 721 kB | 414 kB | 86/86 kBProgress (3): 721 kB | 414 kB | 86 kB                                        Downloaded from central: https://repo.maven.apache.org/maven2/javax/servlet/jstl/1.2/jstl-1.2.jar (414 kB at 910 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/retrofit2/converter-gson/2.0.2/converter-gson-2.0.2.jar
+Progress (3): 721 kB | 86 kB | 4.1/336 kBProgress (3): 721 kB | 86 kB | 8.2/336 kBProgress (3): 721 kB | 86 kB | 12/336 kB Progress (3): 721 kB | 86 kB | 16/336 kBProgress (3): 721 kB | 86 kB | 20/336 kBProgress (3): 721 kB | 86 kB | 24/336 kBProgress (3): 721 kB | 86 kB | 28/336 kBProgress (3): 721 kB | 86 kB | 32/336 kBProgress (3): 721 kB | 86 kB | 36/336 kBProgress (3): 721 kB | 86 kB | 40/336 kBProgress (3): 721 kB | 86 kB | 45/336 kBProgress (3): 721 kB | 86 kB | 49/336 kBProgress (3): 721 kB | 86 kB | 53/336 kBProgress (3): 721 kB | 86 kB | 57/336 kBProgress (3): 721 kB | 86 kB | 61/336 kBProgress (3): 721 kB | 86 kB | 65/336 kBProgress (3): 721 kB | 86 kB | 69/336 kBProgress (3): 721 kB | 86 kB | 73/336 kBProgress (3): 721 kB | 86 kB | 77/336 kBProgress (3): 721 kB | 86 kB | 81/336 kBProgress (3): 721 kB | 86 kB | 86/336 kBProgress (3): 721 kB | 86 kB | 90/336 kBProgress (3): 721 kB | 86 kB | 94/336 kBProgress (3): 721 kB | 86 kB | 98/336 kBProgress (3): 721 kB | 86 kB | 102/336 kBProgress (3): 721 kB | 86 kB | 106/336 kBProgress (3): 721 kB | 86 kB | 110/336 kBProgress (3): 721 kB | 86 kB | 114/336 kBProgress (3): 721 kB | 86 kB | 118/336 kBProgress (3): 721 kB | 86 kB | 122/336 kBProgress (3): 721 kB | 86 kB | 126/336 kBProgress (3): 721 kB | 86 kB | 131/336 kBProgress (3): 721 kB | 86 kB | 135/336 kBProgress (3): 721 kB | 86 kB | 139/336 kBProgress (3): 721 kB | 86 kB | 143/336 kBProgress (3): 721 kB | 86 kB | 147/336 kBProgress (3): 721 kB | 86 kB | 151/336 kBProgress (3): 721 kB | 86 kB | 155/336 kBProgress (3): 721 kB | 86 kB | 159/336 kBProgress (4): 721 kB | 86 kB | 159/336 kB | 4.1/5.5 kBProgress (4): 721 kB | 86 kB | 159/336 kB | 5.5 kB    Progress (5): 721 kB | 86 kB | 159/336 kB | 5.5 kB | 4.1/66 kBProgress (5): 721 kB | 86 kB | 159/336 kB | 5.5 kB | 8.2/66 kBProgress (5): 721 kB | 86 kB | 159/336 kB | 5.5 kB | 12/66 kB Progress (5): 721 kB | 86 kB | 159/336 kB | 5.5 kB | 16/66 kBProgress (5): 721 kB | 86 kB | 159/336 kB | 5.5 kB | 20/66 kBProgress (5): 721 kB | 86 kB | 159/336 kB | 5.5 kB | 24/66 kBProgress (5): 721 kB | 86 kB | 159/336 kB | 5.5 kB | 28/66 kBProgress (5): 721 kB | 86 kB | 159/336 kB | 5.5 kB | 32/66 kBProgress (5): 721 kB | 86 kB | 159/336 kB | 5.5 kB | 36/66 kBProgress (5): 721 kB | 86 kB | 159/336 kB | 5.5 kB | 40/66 kBProgress (5): 721 kB | 86 kB | 159/336 kB | 5.5 kB | 45/66 kBProgress (5): 721 kB | 86 kB | 159/336 kB | 5.5 kB | 49/66 kBProgress (5): 721 kB | 86 kB | 159/336 kB | 5.5 kB | 53/66 kBProgress (5): 721 kB | 86 kB | 159/336 kB | 5.5 kB | 57/66 kBProgress (5): 721 kB | 86 kB | 159/336 kB | 5.5 kB | 61/66 kBProgress (5): 721 kB | 86 kB | 159/336 kB | 5.5 kB | 65/66 kBProgress (5): 721 kB | 86 kB | 159/336 kB | 5.5 kB | 66 kB                                                             Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/retrofit2/converter-gson/2.0.2/converter-gson-2.0.2.jar (5.5 kB at 12 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.6.1/gson-2.6.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/retrofit2/retrofit/2.0.2/retrofit-2.0.2.jar (86 kB at 181 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/logging-interceptor/3.2.0/logging-interceptor-3.2.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.4.1/httpclient-4.4.1.jar (721 kB at 1.5 MB/s)
+Progress (3): 159/336 kB | 66 kB | 4.1/231 kBProgress (3): 159/336 kB | 66 kB | 8.2/231 kBProgress (3): 159/336 kB | 66 kB | 12/231 kB Progress (3): 159/336 kB | 66 kB | 16/231 kBProgress (3): 159/336 kB | 66 kB | 20/231 kBProgress (3): 159/336 kB | 66 kB | 24/231 kBProgress (3): 159/336 kB | 66 kB | 28/231 kBProgress (3): 159/336 kB | 66 kB | 32/231 kBProgress (3): 159/336 kB | 66 kB | 36/231 kBProgress (3): 159/336 kB | 66 kB | 40/231 kBProgress (3): 159/336 kB | 66 kB | 45/231 kBProgress (3): 159/336 kB | 66 kB | 49/231 kBProgress (3): 159/336 kB | 66 kB | 53/231 kBProgress (3): 159/336 kB | 66 kB | 57/231 kBProgress (3): 159/336 kB | 66 kB | 61/231 kBProgress (3): 159/336 kB | 66 kB | 65/231 kBProgress (3): 159/336 kB | 66 kB | 69/231 kBProgress (3): 159/336 kB | 66 kB | 73/231 kBProgress (3): 159/336 kB | 66 kB | 77/231 kBProgress (3): 159/336 kB | 66 kB | 81/231 kBProgress (3): 159/336 kB | 66 kB | 86/231 kBProgress (3): 159/336 kB | 66 kB | 90/231 kBProgress (3): 159/336 kB | 66 kB | 94/231 kBProgress (3): 159/336 kB | 66 kB | 98/231 kBProgress (3): 159/336 kB | 66 kB | 102/231 kBProgress (3): 159/336 kB | 66 kB | 106/231 kBProgress (3): 159/336 kB | 66 kB | 110/231 kBProgress (3): 159/336 kB | 66 kB | 114/231 kBProgress (3): 159/336 kB | 66 kB | 118/231 kBProgress (3): 159/336 kB | 66 kB | 122/231 kBProgress (3): 159/336 kB | 66 kB | 126/231 kBProgress (3): 159/336 kB | 66 kB | 131/231 kBProgress (3): 159/336 kB | 66 kB | 135/231 kBProgress (3): 159/336 kB | 66 kB | 139/231 kBProgress (3): 159/336 kB | 66 kB | 143/231 kBProgress (3): 159/336 kB | 66 kB | 147/231 kBProgress (3): 159/336 kB | 66 kB | 151/231 kBProgress (3): 159/336 kB | 66 kB | 155/231 kBProgress (3): 159/336 kB | 66 kB | 159/231 kBProgress (3): 159/336 kB | 66 kB | 163/231 kB                                             Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.6.0/okio-1.6.0.jar (66 kB at 133 kB/s)
+Progress (3): 159/336 kB | 163/231 kB | 4.1/7.5 kBProgress (3): 159/336 kB | 163/231 kB | 7.5 kB    Progress (3): 163/336 kB | 163/231 kB | 7.5 kBProgress (3): 163/336 kB | 167/231 kB | 7.5 kBProgress (3): 163/336 kB | 172/231 kB | 7.5 kBProgress (3): 163/336 kB | 176/231 kB | 7.5 kBProgress (3): 163/336 kB | 180/231 kB | 7.5 kBProgress (3): 163/336 kB | 184/231 kB | 7.5 kBProgress (3): 163/336 kB | 188/231 kB | 7.5 kBProgress (3): 163/336 kB | 192/231 kB | 7.5 kBProgress (3): 163/336 kB | 196/231 kB | 7.5 kBProgress (3): 163/336 kB | 200/231 kB | 7.5 kBProgress (3): 163/336 kB | 204/231 kB | 7.5 kBProgress (3): 163/336 kB | 208/231 kB | 7.5 kBProgress (3): 163/336 kB | 212/231 kB | 7.5 kBProgress (3): 163/336 kB | 217/231 kB | 7.5 kBProgress (3): 163/336 kB | 221/231 kB | 7.5 kBProgress (3): 163/336 kB | 225/231 kB | 7.5 kBProgress (3): 163/336 kB | 229/231 kB | 7.5 kBProgress (3): 163/336 kB | 231 kB | 7.5 kB    Progress (3): 167/336 kB | 231 kB | 7.5 kBProgress (3): 172/336 kB | 231 kB | 7.5 kBProgress (3): 176/336 kB | 231 kB | 7.5 kBProgress (3): 180/336 kB | 231 kB | 7.5 kBProgress (3): 184/336 kB | 231 kB | 7.5 kBProgress (3): 188/336 kB | 231 kB | 7.5 kBProgress (3): 192/336 kB | 231 kB | 7.5 kBProgress (3): 196/336 kB | 231 kB | 7.5 kBProgress (3): 200/336 kB | 231 kB | 7.5 kBProgress (3): 204/336 kB | 231 kB | 7.5 kBProgress (3): 208/336 kB | 231 kB | 7.5 kBProgress (3): 212/336 kB | 231 kB | 7.5 kBProgress (3): 217/336 kB | 231 kB | 7.5 kBProgress (3): 221/336 kB | 231 kB | 7.5 kBProgress (3): 225/336 kB | 231 kB | 7.5 kBProgress (3): 229/336 kB | 231 kB | 7.5 kBProgress (3): 233/336 kB | 231 kB | 7.5 kBProgress (3): 237/336 kB | 231 kB | 7.5 kBProgress (3): 241/336 kB | 231 kB | 7.5 kBProgress (3): 245/336 kB | 231 kB | 7.5 kBProgress (3): 249/336 kB | 231 kB | 7.5 kBProgress (3): 253/336 kB | 231 kB | 7.5 kBProgress (3): 258/336 kB | 231 kB | 7.5 kBProgress (3): 262/336 kB | 231 kB | 7.5 kBProgress (3): 266/336 kB | 231 kB | 7.5 kBProgress (3): 270/336 kB | 231 kB | 7.5 kBProgress (3): 274/336 kB | 231 kB | 7.5 kBProgress (3): 278/336 kB | 231 kB | 7.5 kBProgress (3): 282/336 kB | 231 kB | 7.5 kBProgress (3): 286/336 kB | 231 kB | 7.5 kBProgress (3): 290/336 kB | 231 kB | 7.5 kBProgress (3): 294/336 kB | 231 kB | 7.5 kBProgress (3): 299/336 kB | 231 kB | 7.5 kBProgress (3): 303/336 kB | 231 kB | 7.5 kBProgress (3): 307/336 kB | 231 kB | 7.5 kBProgress (3): 311/336 kB | 231 kB | 7.5 kBProgress (3): 315/336 kB | 231 kB | 7.5 kBProgress (3): 319/336 kB | 231 kB | 7.5 kBProgress (3): 323/336 kB | 231 kB | 7.5 kBProgress (3): 327/336 kB | 231 kB | 7.5 kBProgress (3): 331/336 kB | 231 kB | 7.5 kBProgress (3): 335/336 kB | 231 kB | 7.5 kBProgress (3): 336 kB | 231 kB | 7.5 kB                                          Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/logging-interceptor/3.2.0/logging-interceptor-3.2.0.jar (7.5 kB at 14 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.6.1/gson-2.6.1.jar (231 kB at 431 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.2.0/okhttp-3.2.0.jar (336 kB at 608 kB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ java-calendar-demo ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /opt/jenkins/workspace/java-project1build/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ java-calendar-demo ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 32 source files to /opt/jenkins/workspace/java-project1build/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/dto/User.java: /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/dto/User.java uses or overrides a deprecated API.
+[WARNING] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/dto/User.java: Recompile with -Xlint:deprecation for details.
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[15,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[16,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[17,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[18,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[19,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[29,41] cannot find symbol
+  symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[43,30] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[43,58] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[43,95] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[60,31] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[60,59] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[60,96] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[104,48] cannot find symbol
+  symbol:   class HttpSession
+  location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[5,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[6,32] package javax.servlet.annotation does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[7,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[8,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[24,34] cannot find symbol
+  symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[23,2] cannot find symbol
+  symbol: class WebServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[30,30] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[30,58] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[30,95] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[53,31] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[53,59] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[53,96] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[88,33] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[8,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[11,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[12,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[20,44] cannot find symbol
+  symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[29,31] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.AuthorizeOrganization
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[29,59] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.AuthorizeOrganization
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[29,96] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.AuthorizeOrganization
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[7,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[8,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[11,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[12,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[19,29] cannot find symbol
+  symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[25,30] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.SignUp
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[25,58] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.SignUp
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[25,95] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.SignUp
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[6,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[7,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[8,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[24,32] cannot find symbol
+  symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[31,30] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[31,58] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[31,95] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[73,31] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[73,59] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[73,96] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[113,33] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/auth/AuthHelper.java:[31,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/auth/AuthHelper.java:[251,82] cannot find symbol
+  symbol:   class ServletContext
+  location: class com.outlook.dev.calendardemo.auth.AuthHelper
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/auth/AuthHelper.java:[260,90] cannot find symbol
+  symbol:   class ServletContext
+  location: class com.outlook.dev.calendardemo.auth.AuthHelper
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/auth/AuthHelper.java:[290,82] cannot find symbol
+  symbol:   class ServletContext
+  location: class com.outlook.dev.calendardemo.auth.AuthHelper
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[8,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[11,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[12,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[20,36] cannot find symbol
+  symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[28,31] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.AuthorizeUser
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[28,59] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.AuthorizeUser
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[28,96] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.AuthorizeUser
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[9,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[11,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[12,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[13,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[25,29] cannot find symbol
+  symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[31,30] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[31,58] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[31,95] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[78,31] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[78,59] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[78,96] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[105,33] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[5,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[6,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[7,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[8,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[13,30] cannot find symbol
+  symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[21,30] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.SignOut
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[21,58] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.SignOut
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[21,95] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.SignOut
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[44,17] cannot find symbol
+  symbol:   class HttpSession
+  location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[61,17] cannot find symbol
+  symbol:   class HttpSession
+  location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[122,52] cannot find symbol
+  symbol: method getServletContext()
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[89,17] cannot find symbol
+  symbol:   class HttpSession
+  location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[101,93] cannot find symbol
+  symbol: method getServletContext()
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[31,17] cannot find symbol
+  symbol:   class HttpSession
+  location: class com.outlook.dev.calendardemo.AuthorizeOrganization
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.148 s
+[INFO] Finished at: 2022-02-26T16:31:36Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project java-calendar-demo: Compilation failure: Compilation failure: 
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[15,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[16,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[17,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[18,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[19,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[29,41] cannot find symbol
+[ERROR]   symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[43,30] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[43,58] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[43,95] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[60,31] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[60,59] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[60,96] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[104,48] cannot find symbol
+[ERROR]   symbol:   class HttpSession
+[ERROR]   location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[5,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[6,32] package javax.servlet.annotation does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[7,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[8,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[24,34] cannot find symbol
+[ERROR]   symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[23,2] cannot find symbol
+[ERROR]   symbol: class WebServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[30,30] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[30,58] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[30,95] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[53,31] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[53,59] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[53,96] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[88,33] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[8,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[11,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[12,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[20,44] cannot find symbol
+[ERROR]   symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[29,31] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.AuthorizeOrganization
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[29,59] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.AuthorizeOrganization
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[29,96] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.AuthorizeOrganization
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[7,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[8,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[11,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[12,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[19,29] cannot find symbol
+[ERROR]   symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[25,30] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.SignUp
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[25,58] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.SignUp
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[25,95] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.SignUp
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[6,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[7,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[8,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[24,32] cannot find symbol
+[ERROR]   symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[31,30] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[31,58] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[31,95] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[73,31] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[73,59] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[73,96] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[113,33] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/auth/AuthHelper.java:[31,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/auth/AuthHelper.java:[251,82] cannot find symbol
+[ERROR]   symbol:   class ServletContext
+[ERROR]   location: class com.outlook.dev.calendardemo.auth.AuthHelper
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/auth/AuthHelper.java:[260,90] cannot find symbol
+[ERROR]   symbol:   class ServletContext
+[ERROR]   location: class com.outlook.dev.calendardemo.auth.AuthHelper
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/auth/AuthHelper.java:[290,82] cannot find symbol
+[ERROR]   symbol:   class ServletContext
+[ERROR]   location: class com.outlook.dev.calendardemo.auth.AuthHelper
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[8,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[11,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[12,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[20,36] cannot find symbol
+[ERROR]   symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[28,31] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.AuthorizeUser
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[28,59] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.AuthorizeUser
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[28,96] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.AuthorizeUser
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[9,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[11,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[12,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[13,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[25,29] cannot find symbol
+[ERROR]   symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[31,30] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[31,58] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[31,95] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[78,31] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[78,59] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[78,96] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[105,33] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[5,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[6,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[7,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[8,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[13,30] cannot find symbol
+[ERROR]   symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[21,30] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.SignOut
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[21,58] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.SignOut
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[21,95] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.SignOut
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[44,17] cannot find symbol
+[ERROR]   symbol:   class HttpSession
+[ERROR]   location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[61,17] cannot find symbol
+[ERROR]   symbol:   class HttpSession
+[ERROR]   location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[122,52] cannot find symbol
+[ERROR]   symbol: method getServletContext()
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[89,17] cannot find symbol
+[ERROR]   symbol:   class HttpSession
+[ERROR]   location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[101,93] cannot find symbol
+[ERROR]   symbol: method getServletContext()
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[31,17] cannot find symbol
+[ERROR]   symbol:   class HttpSession
+[ERROR]   location: class com.outlook.dev.calendardemo.AuthorizeOrganization
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

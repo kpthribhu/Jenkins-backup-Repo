@@ -1,0 +1,26 @@
+Started by user [8mha:////4A9z2f6NgnrdSy6p2rz4LUMwlDqVNY9sow97UjKP1Us8AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9koyizKSMUgCAdTDBwgAAAA==[0mThribhuvan 
+Running as SYSTEM
+Building remotely on [8mha:////4IYHUH0aHzAf6ZkcPN2E1zNynAI9rDI7ebNR0ThzYkO9AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/eLUotSy1CJjZwAnjRvgyAAAAA==[0mserever3C (C) in workspace /opt/jenkins/workspace/c-webhookslave
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/kpthribhu/C-project.git
+ > git init /opt/jenkins/workspace/c-webhookslave # timeout=10
+Fetching upstream changes from https://github.com/kpthribhu/C-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/kpthribhu/C-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/kpthribhu/C-project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision faec8804de60370478d77b1c57a6832350bf65ec (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f faec8804de60370478d77b1c57a6832350bf65ec # timeout=10
+Commit message: "Create test"
+First time build. Skipping changelog.
+[c-webhookslave] $ /bin/sh -xe /tmp/jenkins3784909071392732337.sh
++ cd /opt/jenkins/worksapace/c-webhookslave1
+/tmp/jenkins3784909071392732337.sh: line 2: cd: /opt/jenkins/worksapace/c-webhookslave1: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,26 @@
+Started by user [8mha:////4A9z2f6NgnrdSy6p2rz4LUMwlDqVNY9sow97UjKP1Us8AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9koyizKSMUgCAdTDBwgAAAA==[0mThribhuvan 
+Running as SYSTEM
+Building remotely on [8mha:////4GbP9xvKbEA+bIcn/GfeCtdS+JLNT/AvKmvAq94bu6ywAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZR/eT83ILSktQi/eLUorLUIiOQmQAoRLzGygAAAA==[0mserver2java (java) in workspace /opt/jenkins/workspace/c-project build
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/kpthribhu/C-project.git
+ > git init /opt/jenkins/workspace/c-project build # timeout=10
+Fetching upstream changes from https://github.com/kpthribhu/C-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/kpthribhu/C-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/kpthribhu/C-project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision bac8ed54ccd27adf0f995528fb83c430ef0339f9 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bac8ed54ccd27adf0f995528fb83c430ef0339f9 # timeout=10
+Commit message: "files are edited"
+ > git rev-list --no-walk bac8ed54ccd27adf0f995528fb83c430ef0339f9 # timeout=10
+[c-project build] $ /bin/sh -xe /tmp/jenkins3132329084804575410.sh
++ cd /var/lib/jenkins/workspace/c-project build
+/tmp/jenkins3132329084804575410.sh: line 2: cd: too many arguments
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

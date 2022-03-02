@@ -1,0 +1,16 @@
+Started by upstream project "[8mha:////4Cs6gFH0hx3pLxQz099Wj5NEINm/RgolIz16Z9fK2qnwAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+kmlmTkpIMNAHABdnZ6UxwAAAA==[0mbuildjavajob" build number [8mha:////4FqLKZGtwa6GrtPFqIVwkDmoOIz6IyaeAe/tA0xzyLFIAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmH9rPwk/aTSzJwUkGEgjgUA4Ne/EcgAAAA=[0m8
+originally caused by:
+ Started by user [8mha:////4A9z2f6NgnrdSy6p2rz4LUMwlDqVNY9sow97UjKP1Us8AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9koyizKSMUgCAdTDBwgAAAA==[0mThribhuvan 
+Started by upstream project "[8mha:////4Cs6gFH0hx3pLxQz099Wj5NEINm/RgolIz16Z9fK2qnwAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+kmlmTkpIMNAHABdnZ6UxwAAAA==[0mbuildjavajob" build number [8mha:////4FqLKZGtwa6GrtPFqIVwkDmoOIz6IyaeAe/tA0xzyLFIAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmH9rPwk/aTSzJwUkGEgjgUA4Ne/EcgAAAA=[0m8
+originally caused by:
+ Started by user [8mha:////4A9z2f6NgnrdSy6p2rz4LUMwlDqVNY9sow97UjKP1Us8AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9koyizKSMUgCAdTDBwgAAAA==[0mThribhuvan 
+Running as SYSTEM
+Building remotely on [8mha:////4GbP9xvKbEA+bIcn/GfeCtdS+JLNT/AvKmvAq94bu6ywAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZR/eT83ILSktQi/eLUorLUIiOQmQAoRLzGygAAAA==[0mserver2java (java) in workspace /opt/jenkins/workspace/deployjavaproject
+[deployjavaproject] $ /bin/sh -xe /tmp/jenkins2151743997985418991.sh
++ sudo tomcatdown
++ sudo cp /opt/jenkins/workspace/buildjavajob/target/hello-world-war-1.0.0.war /usr/local/apache-tomcat-10.0.16/webapps/
++ sudo tomcatup
+Tomcat started.
+Triggering a new build of [8mha:////4AqMJ5G2SAHpkhxwAPk9Bj3WERJX2HmJ2qoAgyBzKq+UAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP2S1OISkFkFRflZqckl+gAy+DX+ygAAAA==[0mtestjavaproject
+Triggering a new build of [8mha:////4AqMJ5G2SAHpkhxwAPk9Bj3WERJX2HmJ2qoAgyBzKq+UAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP2S1OISkFkFRflZqckl+gAy+DX+ygAAAA==[0mtestjavaproject
+Finished: SUCCESS

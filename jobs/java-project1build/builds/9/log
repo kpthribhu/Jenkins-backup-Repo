@@ -1,0 +1,473 @@
+Started by user [8mha:////4A9z2f6NgnrdSy6p2rz4LUMwlDqVNY9sow97UjKP1Us8AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9koyizKSMUgCAdTDBwgAAAA==[0mThribhuvan 
+Running as SYSTEM
+Building remotely on [8mha:////4GbP9xvKbEA+bIcn/GfeCtdS+JLNT/AvKmvAq94bu6ywAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZR/eT83ILSktQi/eLUorLUIiOQmQAoRLzGygAAAA==[0mserver2java (java) in workspace /opt/jenkins/workspace/java-project1build
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /opt/jenkins/workspace/java-project1build/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jasonjoh/java-calendar-demo.git # timeout=10
+Fetching upstream changes from https://github.com/jasonjoh/java-calendar-demo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/jasonjoh/java-calendar-demo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ff2581523e545134346663d0b7113ebf3e773f5a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ff2581523e545134346663d0b7113ebf3e773f5a # timeout=10
+Commit message: "Added license"
+First time build. Skipping changelog.
+[java-project1build] $ /bin/sh -xe /tmp/jenkins7290299330311130195.sh
++ cd /opt/jenkins/workspace/java-project1build
++ mvn package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< dev.outlook.com:java-calendar-demo >-----------------
+[INFO] Building java-calendar-demo Maven Webapp 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ java-calendar-demo ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /opt/jenkins/workspace/java-project1build/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ java-calendar-demo ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 32 source files to /opt/jenkins/workspace/java-project1build/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/dto/User.java: /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/dto/User.java uses or overrides a deprecated API.
+[WARNING] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/dto/User.java: Recompile with -Xlint:deprecation for details.
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[15,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[16,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[17,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[18,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[19,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[29,41] cannot find symbol
+  symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[43,30] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[43,58] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[43,95] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[60,31] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[60,59] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[60,96] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[104,48] cannot find symbol
+  symbol:   class HttpSession
+  location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[5,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[6,32] package javax.servlet.annotation does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[7,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[8,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[24,34] cannot find symbol
+  symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[23,2] cannot find symbol
+  symbol: class WebServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[30,30] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[30,58] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[30,95] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[53,31] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[53,59] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[53,96] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[88,33] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[8,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[11,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[12,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[20,44] cannot find symbol
+  symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[29,31] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.AuthorizeOrganization
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[29,59] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.AuthorizeOrganization
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[29,96] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.AuthorizeOrganization
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[7,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[8,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[11,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[12,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[19,29] cannot find symbol
+  symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[25,30] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.SignUp
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[25,58] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.SignUp
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[25,95] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.SignUp
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[6,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[7,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[8,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[24,32] cannot find symbol
+  symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[31,30] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[31,58] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[31,95] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[73,31] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[73,59] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[73,96] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[113,33] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/auth/AuthHelper.java:[31,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/auth/AuthHelper.java:[251,82] cannot find symbol
+  symbol:   class ServletContext
+  location: class com.outlook.dev.calendardemo.auth.AuthHelper
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/auth/AuthHelper.java:[260,90] cannot find symbol
+  symbol:   class ServletContext
+  location: class com.outlook.dev.calendardemo.auth.AuthHelper
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/auth/AuthHelper.java:[290,82] cannot find symbol
+  symbol:   class ServletContext
+  location: class com.outlook.dev.calendardemo.auth.AuthHelper
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[8,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[11,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[12,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[20,36] cannot find symbol
+  symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[28,31] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.AuthorizeUser
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[28,59] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.AuthorizeUser
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[28,96] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.AuthorizeUser
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[9,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[11,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[12,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[13,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[25,29] cannot find symbol
+  symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[31,30] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[31,58] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[31,95] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[78,31] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[78,59] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[78,96] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[105,33] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[5,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[6,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[7,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[8,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[13,30] cannot find symbol
+  symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[21,30] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.outlook.dev.calendardemo.SignOut
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[21,58] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.outlook.dev.calendardemo.SignOut
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[21,95] cannot find symbol
+  symbol:   class ServletException
+  location: class com.outlook.dev.calendardemo.SignOut
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[44,17] cannot find symbol
+  symbol:   class HttpSession
+  location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[61,17] cannot find symbol
+  symbol:   class HttpSession
+  location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[122,52] cannot find symbol
+  symbol: method getServletContext()
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[89,17] cannot find symbol
+  symbol:   class HttpSession
+  location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[101,93] cannot find symbol
+  symbol: method getServletContext()
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[31,17] cannot find symbol
+  symbol:   class HttpSession
+  location: class com.outlook.dev.calendardemo.AuthorizeOrganization
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.221 s
+[INFO] Finished at: 2022-02-26T16:52:37Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project java-calendar-demo: Compilation failure: Compilation failure: 
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[15,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[16,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[17,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[18,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[19,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[29,41] cannot find symbol
+[ERROR]   symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[43,30] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[43,58] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[43,95] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[60,31] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[60,59] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[60,96] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[104,48] cannot find symbol
+[ERROR]   symbol:   class HttpSession
+[ERROR]   location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[5,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[6,32] package javax.servlet.annotation does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[7,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[8,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[24,34] cannot find symbol
+[ERROR]   symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[23,2] cannot find symbol
+[ERROR]   symbol: class WebServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[30,30] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[30,58] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[30,95] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[53,31] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[53,59] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[53,96] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[88,33] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[8,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[11,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[12,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[20,44] cannot find symbol
+[ERROR]   symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[29,31] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.AuthorizeOrganization
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[29,59] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.AuthorizeOrganization
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[29,96] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.AuthorizeOrganization
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[7,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[8,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[11,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[12,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[19,29] cannot find symbol
+[ERROR]   symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[25,30] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.SignUp
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[25,58] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.SignUp
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignUp.java:[25,95] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.SignUp
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[6,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[7,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[8,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[24,32] cannot find symbol
+[ERROR]   symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[31,30] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[31,58] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[31,95] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[73,31] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[73,59] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[73,96] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Calendars.java:[113,33] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.Calendars
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/auth/AuthHelper.java:[31,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/auth/AuthHelper.java:[251,82] cannot find symbol
+[ERROR]   symbol:   class ServletContext
+[ERROR]   location: class com.outlook.dev.calendardemo.auth.AuthHelper
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/auth/AuthHelper.java:[260,90] cannot find symbol
+[ERROR]   symbol:   class ServletContext
+[ERROR]   location: class com.outlook.dev.calendardemo.auth.AuthHelper
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/auth/AuthHelper.java:[290,82] cannot find symbol
+[ERROR]   symbol:   class ServletContext
+[ERROR]   location: class com.outlook.dev.calendardemo.auth.AuthHelper
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[8,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[9,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[11,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[12,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[20,36] cannot find symbol
+[ERROR]   symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[28,31] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.AuthorizeUser
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[28,59] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.AuthorizeUser
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeUser.java:[28,96] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.AuthorizeUser
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[9,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[10,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[11,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[12,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[13,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[25,29] cannot find symbol
+[ERROR]   symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[31,30] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[31,58] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[31,95] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[78,31] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[78,59] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[78,96] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/Events.java:[105,33] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.Events
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[5,21] package javax.servlet does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[6,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[7,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[8,26] package javax.servlet.http does not exist
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[13,30] cannot find symbol
+[ERROR]   symbol: class HttpServlet
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[21,30] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.outlook.dev.calendardemo.SignOut
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[21,58] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.outlook.dev.calendardemo.SignOut
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/SignOut.java:[21,95] cannot find symbol
+[ERROR]   symbol:   class ServletException
+[ERROR]   location: class com.outlook.dev.calendardemo.SignOut
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[44,17] cannot find symbol
+[ERROR]   symbol:   class HttpSession
+[ERROR]   location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[61,17] cannot find symbol
+[ERROR]   symbol:   class HttpSession
+[ERROR]   location: class com.outlook.dev.calendardemo.rawrest.CalendarOperations
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/rawrest/CalendarOperations.java:[122,52] cannot find symbol
+[ERROR]   symbol: method getServletContext()
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[89,17] cannot find symbol
+[ERROR]   symbol:   class HttpSession
+[ERROR]   location: class com.outlook.dev.calendardemo.EventDetail
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/EventDetail.java:[101,93] cannot find symbol
+[ERROR]   symbol: method getServletContext()
+[ERROR] /opt/jenkins/workspace/java-project1build/src/main/java/com/outlook/dev/calendardemo/AuthorizeOrganization.java:[31,17] cannot find symbol
+[ERROR]   symbol:   class HttpSession
+[ERROR]   location: class com.outlook.dev.calendardemo.AuthorizeOrganization
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,26 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<slave>
+  <name>serever3C</name>
+  <description>C compile</description>
+  <remoteFS>/opt/jenkins</remoteFS>
+  <numExecutors>2</numExecutors>
+  <mode>NORMAL</mode>
+  <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+  <launcher class="hudson.plugins.sshslaves.SSHLauncher" plugin="ssh-slaves@1.33.0">
+    <host>172.31.83.248</host>
+    <port>22</port>
+    <credentialsId>a4b07c75-8a9e-4ce6-b687-5f34eca1ea65</credentialsId>
+    <launchTimeoutSeconds>60</launchTimeoutSeconds>
+    <maxNumRetries>10</maxNumRetries>
+    <retryWaitTime>15</retryWaitTime>
+    <sshHostKeyVerificationStrategy class="hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy">
+      <key>
+        <algorithm>ssh-rsa</algorithm>
+        <key>AAAAB3NzaC1yc2EAAAADAQABAAABgQDAHENa0b3ndSQLgo2AOVp1YK9FGv6ODrYEQwMNAytSnic0Sp4dy4Qg1CgLGb/SZqLKd9yj8f45q6JpCcw3ADiZg68oXatcbIENEG2YDUqEkPaB1OEhF2lPj5PIjy5GXBaJDdg+83rec4S8SyUDWzgLgEzn092HAP7Whp8inVHtscLISyf9Hl1mmk06eAZRfNfO54uu4uRIxyZAtf+0yHWDjWQsvU8zwmBTpIcHprffVd6DIIncm/T0N9XTOniyPw29CeNRqSw5MSK7rKAONll0g+R/Ifif/ScgSZcuHnGAzGO5SWgdTp/SVRHGKt5KZSRmUGKOQTy5IPpFii3T8SWo4Wa+FDdFgWrpWIG8MLNdVz6cEIR9ATeS2b+5zpo16GLQWQReGzbIcov4K/9PTtwtUEbuY8xkFy7SGvgm+RVAk+XpJXZM9vlPr0jIcB1l23CHViKRuc60vcFh28RrrnStSUUVWCtRf93cSMdOaFt2nyk/ZMigGZJsnjXb0RZhBv0=</key>
+      </key>
+    </sshHostKeyVerificationStrategy>
+    <tcpNoDelay>true</tcpNoDelay>
+  </launcher>
+  <label>C</label>
+  <nodeProperties/>
+</slave>
